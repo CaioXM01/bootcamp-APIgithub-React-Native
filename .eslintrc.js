@@ -12,6 +12,7 @@ module.exports = {
     SharedArrayBuffer: 'readonly',
     __DEV__: 'readonly'
   },
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -34,5 +35,7 @@ module.exports = {
     'react/static-property-placement': 'off',
     'react/jsx-props-no-spreading': 'off',
     'static-property-placement': 'off',
+    'import/no-named-as-default-member': 'off',
+    'import/no-named-as-default': 'off',
   },
 };
