@@ -37,5 +37,6 @@ module.exports = {
     'static-property-placement': 'off',
     'import/no-named-as-default-member': 'off',
     'import/no-named-as-default': 'off',
+    'react/sort-comp': 'off',
   },
 };
